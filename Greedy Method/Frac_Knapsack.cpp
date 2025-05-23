@@ -6,7 +6,7 @@ void Knapsack(int n , double profits[] ,double weights[] , int capacity)
     for(int i =0 ;i<n-1;i ++)
     {
         int max = i;
-        for(int j = i +1 ;j<=n;j++)
+        for(int j = i +1 ;j < n;j++)
         {
             if( (profits[j] / weights[j])  > (profits[max] / weights[max]) )
             {
