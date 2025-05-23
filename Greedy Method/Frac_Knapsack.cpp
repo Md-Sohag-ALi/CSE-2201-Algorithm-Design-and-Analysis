@@ -27,9 +27,9 @@ void Knapsack(int n , double profits[] ,double weights[] , int capacity)
         }
         else break;
     }
-    if( i <= n)
+    if(i <= n)
     {
-        Ratio[i] = W /weights[i];
+        Ratio[i] = W / weights[i];
     }
 }
 
